@@ -80,7 +80,7 @@
 #endif
 
 #ifndef LIZARDFS_MAX_FILES
-#  define LIZARDFS_MAX_FILES 5000
+#  define LIZARDFS_MAX_FILES 65536
 #endif
 
 #if defined(LIZARDFS_HAVE_SYSTEMD_SD_DAEMON_H)
